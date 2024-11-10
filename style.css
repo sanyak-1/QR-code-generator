@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212; /* Dark background */
+    color: #ffffff; /* White text for contrast */
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    max-width: 400px;
+    margin: auto;
+    background: #1e1e1e; /* Dark grey background for the form */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); /* Softer shadow */
+}
+
+label {
+    display: block; /* Makes labels take the full width */
+    margin-bottom: 8px;
+    color: #e0e0e0; /* Light grey for labels */
+}
+
+input {
+    width: 100%; /* Makes inputs take the full width */
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #444; /* Darker border */
+    border-radius: 4px;
+    background-color: #333; /* Dark input background */
+    color: #ffffff; /* White text in inputs */
+}
+
+input::placeholder {
+    color: #aaa; /* Placeholder text color */
+}
+
+button {
+    width: 100%; /* Makes button take the full width */
+    padding: 10px;
+    background-color: #f44336; /* A bold red for contrast */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition for hover */
+}
+
+button:hover {
+    background-color: #d32f2f; /* Darker red on hover */
+}
+
+canvas {
+    display: block; /* Makes canvas block-level for alignment */
+    margin: 20px auto; /* Centers canvas horizontally */
+}
